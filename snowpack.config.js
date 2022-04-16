@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://SebasDeveloper1.github.io/workshop-tailwing.git',
+    baseUrl: 'https://SebasDeveloper1.github.io/workshop-tailwing',
   },
 }

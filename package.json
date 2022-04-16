@@ -1,4 +1,4 @@
-{  "homepage": "https://SebasDeveloper1.github.io/workshop-tailwing.git",
+{  "homepage": "https://SebasDeveloper1.github.io/workshop-tailwing",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
