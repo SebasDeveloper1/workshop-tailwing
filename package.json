@@ -1,18 +1,18 @@
-{
-  "homepage": "https://SebasDeveloper1.github.io/workshop-tailwing.git",
+{  "homepage": "https://SebasDeveloper1.github.io/workshop-tailwing.git",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
     "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\"",
-    "pre-commit": "pretty-quick --staged",
-    "install:husky": "husky install"
+    "lint": "prettier --check \"src/**/*.js\""
   },
   "devDependencies": {
-    "husky": "7",
+    "husky": "^4.3.8",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
     "snowpack": "^3.0.11",
     "tailwindcss": "^2.0.2"
+  },
+  "dependencies": {
+    "rickmortyapi": "^0.3.0"
   }
 }
